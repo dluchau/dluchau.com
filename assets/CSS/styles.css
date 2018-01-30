@@ -1,0 +1,491 @@
+html, body {
+  width: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #292929;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 70px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 22px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.topnav {
+    background-color: #292929;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+    min-width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    z-index: 1;
+      color: white;
+      font-family: "futura-pt", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      font-size: 22px;
+}
+.topnav span {
+    float: left;
+    padding: 12px 0px 0px 50px;
+}
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 12px 50px 0px 0px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#homesection {
+  background-image: url("../images/backgrounds/homebackground.jpg");
+  height: 900px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#hometagline {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  left: 10%;
+  width: 100%;
+}
+#hometaglinegreen {
+  color: #33ff99;
+}
+
+#portfoliosection {
+  background-color: #cccccc;
+  height: 900px;
+  width: 100%;
+  margin: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#portfoliotagline {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  left: 10%;
+  width: 100%;
+}
+
+#portfolioinfo {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  position: absolute;
+  text-align: left;
+  top: 110px;
+  left: 10%;
+  width: 100%;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#port1thumb {
+  background-image: url("../images/portfolio/port1_portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 900px;
+}
+#port2thumb {
+  background-image: url("../images/portfolio/port2_photographs.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 900px;
+}
+#port3thumb {
+  background-image: url("../images/portfolio/port3_portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 900px;
+}
+#port4thumb {
+  background-image: url("../images/portfolio/port4_magazine.png");
+  background-size: cover;
+  background-position: left;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 900px;
+}
+#port5thumb {
+  background-image: url("../images/portfolio/port5_portrait.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 900px;
+}
+
+#aboutsection {
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  position: relative;
+}
+div {
+  height: 100%;
+}
+.halfsection {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+.aboutcontainer {
+  display: table;
+  width: 100%;
+  text-align: left;
+}
+.aboutleft {
+  background-image: url("../images/backgrounds/aboutbackground.jpg");
+  background-color: #292929;
+  text-align: left;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  width: 50%;
+}
+.aboutright {
+  background-color: #292929;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  overflow-wrap: break-word;
+}
+#abouttagline {
+  color: #ff4140;
+  position: absolute;
+  text-align: left;
+  top: 60px;
+  left: 10%;
+  width: 100%;
+}
+#aboutinfo {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 130px;
+  left: 10%;
+  width: 70%;
+}
+
+#contactsection {
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  position: relative;
+}
+.contactcontainer {
+  display: table;
+  width: 100%;
+  text-align: left;
+}
+.contactleft {
+  background-color: #5a5a5a;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+.contactright {
+  background-image: url("../images/backgrounds/contactbackground.jpg");
+  background-color: #292929;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+#contacttagline {
+  color: #61e4f0;
+  position: relative;
+  text-align: left;
+  top: 80px;
+  left: 10%;
+  width: 100%;
+}
+#contactlist {
+  list-style-type: none;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 22px;
+  position: fixed;
+  top: 160px;
+  width: 100%;
+  left: 8%;
+}
+#contactlist a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    clear: left;
+    margin-top: 70px;
+}
+#contactlist a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* Portfolio content pages */
+
+#portback {
+  float: left;
+  padding: 12px 0 0 50px
+}
+
+.port1pagecontainer {
+  display: table;
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+}
+.port1left {
+  background-color: #5a5a5a;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 25%;
+}
+.port1right {
+  background-image: url("../images/portfolio/port1_portrait.jpg");
+  background-color: #292929;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+#port1tagline {
+  color: #ff4140;
+  position: absolute;
+  text-align: left;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+}
+#port1info {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+}
+
+.port2pagecontainer {
+  display: table;
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+}
+.port2left {
+  background-color: #5a5a5a;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  width: 25%;
+}
+.port2right {
+  background-image: url("../images/portfolio/port2_photographs.jpg");
+  background-color: #292929;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+#port2tagline {
+  color: #61e4f0;
+  position: absolute;
+  text-align: left;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+}
+#port2info {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+}
+
+.port3pagecontainer {
+  display: table;
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+}
+.port3left {
+  background-color: #5a5a5a;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  width: 25%;
+}
+.port3right {
+  background-image: url("../images/portfolio/port3_portrait.jpg");
+  background-color: #292929;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+#port3tagline {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+}
+#port3info {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+}
+
+.port4pagecontainer {
+  display: table;
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+}
+.port4left {
+  background-color: #5a5a5a;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  width: 25%;
+}
+.port4right {
+  background-image: url("../images/portfolio/port4_magazine_double.png");
+  background-color: #292929;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+#port4tagline {
+  color: #ff4140;
+  position: absolute;
+  text-align: left;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+}
+#port4info {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+}
+
+.port5pagecontainer {
+  display: table;
+  margin-top: 50px;
+  width: 100%;
+  text-align: left;
+
+}
+.port5left {
+  background-color: #5a5a5a;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  width: 25%;
+}
+.port5right {
+  background-image: url("../images/portfolio/port5_portrait.jpg");
+  background-color: #292929;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+#port5tagline {
+  color: #33ff99;
+  position: absolute;
+  text-align: left;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+}
+#port5info {
+  color: white;
+  position: absolute;
+  text-align: left;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+}
